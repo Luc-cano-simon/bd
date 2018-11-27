@@ -1,0 +1,97 @@
+body
+{
+	background:url('https://previews.123rf.com/images/azaman357/azaman3571702/azaman357170200026/71136872-comic-book-versus-background-fen%C3%AAtre-de-dialogue-super-h%C3%A9ros.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face 
+{
+    font-family: 'Comica BD Bold.ttf';
+    src: url('Comica BD Bold.ttf') format('truetype') ;
+
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.text-center
+{
+	margin-top:15px;
+	font-family: 'Comica BD Bold.ttf';
+	font-size: 70px;
+}
+
+.img_1
+{
+    width: 300px;
+    max-height:325px;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.zoom:hover 
+{
+    transform: scale(1.1);
+}
+
+
+#btnA
+{
+    background: rgba(255,255,255,0);
+    margin-top: 20px;
+    margin-left: 140px;
+    border: none
+}
+
+.description
+{
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin: 3em 1.5em 3em 1.5em;
+    border-radius:0.5em;
+    background-color: #E8E6E5;
+    font-family: 'Comica BD Bold.ttf';
+    font-size: 20px;
+}
+
+
+
+.titre
+{
+    text-align: center;
+    color: black;
+    font-family: 'Comica BD Bold.ttf';
+    font-size: 40px;
+    position:relative;
+    text-align:center;
+
+}
+
+.titre::before
+{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    width:100%;
+    background:#a9c622;
+    height:2px;
+    z-index:-1;
+}
+
+.titre span
+{
+    background:#a9c622;
+    padding:4px 8px;
+}
+
+.decouverte
+{
+    margin-top: 45px;
+}
+
